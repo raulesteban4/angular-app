@@ -34,6 +34,7 @@ export class ComponenteLibros {
   @ViewChild(MatSort) sort?: MatSort;
 
   estaAutenticado = this.auth.estaAutenticado;
+  esAdmin = this.auth.esAdmin;
   error = '';
 
   ngAfterViewInit() {

@@ -150,3 +150,188 @@
 2025-11-26T17:33:35.307Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
 2025-11-26T17:38:53.811Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
 2025-11-26T17:38:57.776Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2026-05-05T16:47:08.297Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario admin123 no encontrado
+2026-05-05T16:47:09.809Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario admin123 no encontrado
+2026-05-05T16:47:12.833Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario admin123 no encontrado
+2026-05-05T16:47:22.816Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69fa1ee816083af7be096780 
+2026-05-05T16:47:44.482Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T16:47:44.490Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T16:47:45.813Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T16:47:45.819Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T16:47:45.835Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:47:45.849Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T16:47:49.959Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T16:47:54.562Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:48:40.710Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096784" GET libro: encontrado
+2026-05-05T16:48:42.114Z [INFO] ::1 - - "PUT /libros/69fa1ee816083af7be096784" ACTUALIZAR libro: 69fa1ee816083af7be096784 actualizado
+2026-05-05T16:48:42.129Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:48:52.045Z [INFO] ::1 - - "POST /prestamos" CREAR prestamo: 69fa1f74c98bc690981adc7f creado
+2026-05-05T16:48:52.051Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:48:52.066Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:49:05.359Z [INFO] ::1 - - "PUT /prestamos/69fa1ee816083af7be096790" ACTUALIZAR prestamo: 69fa1ee816083af7be096790 actualizado
+2026-05-05T16:49:05.368Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:49:06.249Z [INFO] ::1 - - "PUT /prestamos/69fa1ee816083af7be096790" ACTUALIZAR prestamo: 69fa1ee816083af7be096790 actualizado
+2026-05-05T16:49:06.257Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:49:06.652Z [INFO] ::1 - - "PUT /prestamos/69fa1ee816083af7be096790" ACTUALIZAR prestamo: 69fa1ee816083af7be096790 actualizado
+2026-05-05T16:49:06.660Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:49:07.783Z [INFO] ::1 - - "PUT /prestamos/69fa1ee816083af7be096790" ACTUALIZAR prestamo: 69fa1ee816083af7be096790 actualizado
+2026-05-05T16:49:07.792Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:49:08.776Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096784" GET libro: encontrado
+2026-05-05T16:49:32.547Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T16:49:38.031Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:49:39.078Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:49:40.375Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:49:44.224Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:49:48.011Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:49:49.057Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:49:51.925Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096784" GET libro: encontrado
+2026-05-05T16:49:53.351Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:50:25.082Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:50:29.248Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2026-05-05T16:50:40.412Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096782 
+2026-05-05T16:50:40.417Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T16:50:41.114Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096782 
+2026-05-05T16:50:41.120Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T16:50:41.130Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:50:41.139Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:50:58.840Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T16:51:00.577Z [INFO] ::1 - - "GET /libros" GET libros: 10 encontrados
+2026-05-05T16:51:03.698Z [INFO] ::1 - - "DELETE /libros/69fa1ee816083af7be096784" ELIMINAR libro: 69fa1ee816083af7be096784 eliminado
+2026-05-05T16:51:03.702Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:51:12.836Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:51:12.841Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T16:51:15.099Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T16:51:17.173Z [INFO] ::1 - - "PUT /prestamos/69fa1ee816083af7be096792" ACTUALIZAR prestamo: 69fa1ee816083af7be096792 actualizado
+2026-05-05T16:51:17.182Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T16:51:18.781Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:51:30.009Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:51:30.013Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T16:51:32.405Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T16:51:33.274Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:51:34.767Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:51:34.772Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T16:51:41.425Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:51:42.738Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T16:52:07.704Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:52:09.603Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096785" GET libro: encontrado
+2026-05-05T16:52:15.099Z [INFO] ::1 - - "POST /prestamos" CREAR prestamo: 69fa203fc98bc690981adcd7 creado
+2026-05-05T16:52:15.105Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:52:15.119Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T16:52:23.542Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:52:27.481Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:52:27.486Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T16:52:29.332Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:53:25.802Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T16:53:26.907Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:53:29.623Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:53:29.628Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T16:53:31.257Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T16:53:33.762Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T16:54:10.686Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:06:33.735Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69fa1ee816083af7be096780 
+2026-05-05T17:06:34.336Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69fa1ee816083af7be096780 
+2026-05-05T17:06:42.284Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T17:06:42.290Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:06:42.941Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T17:06:42.948Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:06:42.961Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:06:42.966Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:06:45.631Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:06:47.371Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2026-05-05T17:06:59.664Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario USER01 no encontrado
+2026-05-05T17:07:03.237Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096782 
+2026-05-05T17:07:03.243Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:07:04.236Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096782 
+2026-05-05T17:07:04.243Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:07:04.256Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:07:04.264Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:07:06.543Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:07:09.004Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096785" GET libro: encontrado
+2026-05-05T17:07:10.501Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:07:12.703Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:07:14.607Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be09678b" GET libro: encontrado
+2026-05-05T17:07:16.331Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:07:17.859Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:07:19.579Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:07:21.110Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:07:22.721Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2026-05-05T17:07:54.756Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69fa1ee816083af7be096780 
+2026-05-05T17:07:56.411Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T17:07:56.416Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:07:56.851Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T17:07:56.858Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:07:56.865Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:07:56.876Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:08:01.802Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:08:03.962Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:08:06.453Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:08:12.778Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096785" GET libro: encontrado
+2026-05-05T17:08:14.152Z [INFO] ::1 - - "PUT /libros/69fa1ee816083af7be096785" ACTUALIZAR libro: 69fa1ee816083af7be096785 actualizado
+2026-05-05T17:08:14.167Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:31:32.389Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69fa1ee816083af7be096780 
+2026-05-05T17:31:33.860Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T17:31:33.867Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:31:34.663Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096780 
+2026-05-05T17:31:34.671Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:31:34.687Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:31:34.693Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:31:37.505Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:31:46.533Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:31:47.848Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:31:50.197Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096787" GET libro: encontrado
+2026-05-05T17:31:52.252Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:31:53.198Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096787" GET libro: encontrado
+2026-05-05T17:31:55.198Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:32:00.667Z [INFO] ::1 - - "DELETE /prestamos/69fa203fc98bc690981adcd7" ELIMINAR prestamo: 69fa203fc98bc690981adcd7 eliminado
+2026-05-05T17:32:00.676Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T17:32:02.210Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be09678d" GET libro: encontrado
+2026-05-05T17:32:03.936Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T17:32:15.823Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:32:20.444Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:32:21.470Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 9 encontrados
+2026-05-05T17:32:23.118Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:32:28.606Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096787" GET libro: encontrado
+2026-05-05T17:32:32.082Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:32:33.431Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096786" GET libro: encontrado
+2026-05-05T17:32:38.574Z [INFO] ::1 - - "POST /prestamos" CREAR prestamo: 69fa29b6c98bc690981add4c creado
+2026-05-05T17:32:38.580Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:32:38.590Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:32:43.020Z [INFO] ::1 - - "PUT /prestamos/69fa29b6c98bc690981add4c" ACTUALIZAR prestamo: 69fa29b6c98bc690981add4c actualizado
+2026-05-05T17:32:43.028Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:32:43.363Z [INFO] ::1 - - "PUT /prestamos/69fa29b6c98bc690981add4c" ACTUALIZAR prestamo: 69fa29b6c98bc690981add4c actualizado
+2026-05-05T17:32:43.371Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:32:43.666Z [INFO] ::1 - - "PUT /prestamos/69fa29b6c98bc690981add4c" ACTUALIZAR prestamo: 69fa29b6c98bc690981add4c actualizado
+2026-05-05T17:32:43.675Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:32:43.856Z [INFO] ::1 - - "PUT /prestamos/69fa29b6c98bc690981add4c" ACTUALIZAR prestamo: 69fa29b6c98bc690981add4c actualizado
+2026-05-05T17:32:43.865Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:32:44.682Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096786" GET libro: encontrado
+2026-05-05T17:32:48.767Z [INFO] ::1 - - "POST /prestamos" CREAR prestamo: 69fa29c0c98bc690981add67 creado
+2026-05-05T17:32:48.774Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:32:48.784Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 11 encontrados
+2026-05-05T17:32:53.371Z [INFO] ::1 - - "DELETE /prestamos/69fa29c0c98bc690981add67" ELIMINAR prestamo: 69fa29c0c98bc690981add67 eliminado
+2026-05-05T17:32:53.380Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 10 encontrados
+2026-05-05T17:32:55.211Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2026-05-05T17:33:06.077Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69fa1ee816083af7be096782 
+2026-05-05T17:33:14.890Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69fa1ee816083af7be096782 
+2026-05-05T17:33:14.913Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:33:18.437Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:21.044Z [INFO] ::1 - - "GET /usuarios/perfil" PERFIL: petición realizada 
+2026-05-05T17:33:23.395Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:26.243Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096785" GET libro: encontrado
+2026-05-05T17:33:29.482Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:31.576Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096787" GET libro: encontrado
+2026-05-05T17:33:33.102Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:36.019Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:42.095Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:45.667Z [INFO] ::1 - - "POST /prestamos" CREAR prestamo: 69fa29f9c98bc690981add81 creado
+2026-05-05T17:33:45.668Z [INFO] ::1 - - "POST /prestamos" CREAR prestamo: 69fa29f9c98bc690981add83 creado
+2026-05-05T17:33:45.673Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:45.678Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:33:45.686Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 12 encontrados
+2026-05-05T17:33:59.566Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:34:02.206Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096785" GET libro: encontrado
+2026-05-05T17:34:05.977Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 12 encontrados
+2026-05-05T17:34:15.261Z [INFO] ::1 - - "GET /libros/69fa1ee816083af7be096785" GET libro: encontrado
+2026-05-05T17:34:16.315Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 12 encontrados
+2026-05-05T17:34:19.536Z [INFO] ::1 - - "GET /libros" GET libros: 9 encontrados
+2026-05-05T17:34:19.542Z [INFO] ::1 - - "GET /prestamos" GET prestamos: 12 encontrados

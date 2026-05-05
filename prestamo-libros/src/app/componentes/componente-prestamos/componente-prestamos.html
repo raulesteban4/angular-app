@@ -27,7 +27,10 @@
     </mat-card-content>
 
     <mat-card-actions>
-      <button mat-button (click)="marcarDevuelto(prestamo)">{{ prestamo.devuelto ? 'MARCAR PENDIENTE' : 'MARCAR DEVUELTO' }}</button>
+      <ng-container *ngIf="esAdmin()">
+        <button mat-button (click)="marcarDevuelto(prestamo)">{{ prestamo.devuelto ? 'MARCAR PENDIENTE' : 'MARCAR DEVUELTO' }}</button>
+        <button mat-button color="warn" (click)="eliminarPrestamo(prestamo._id)">Eliminar</button>
+      </ng-container>
       <button mat-button [routerLink]="['/libros', getLibroId(prestamo.libro)]">DETALLES</button>
     </mat-card-actions>
   </mat-card>

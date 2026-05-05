@@ -4,6 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { Prestamo } from '../../interfaces/prestamos';
 import { GestionarPrestamos } from '../../servicios/gestionar-prestamos';
+import { GestionarUsuarios } from '../../servicios/gestionar-usuarios';
 import { RouterLink } from '@angular/router';
 import { ComponenteFiltrar } from '../componente-filtrar/componente-filtrar';
 import { CommonModule, DatePipe } from '@angular/common';
@@ -18,7 +19,10 @@ import { Libro } from '../../interfaces/libros';
 })
 export class ComponentePrestamos {
   private gestionarPrestamos = inject(GestionarPrestamos);
+  private auth = inject(GestionarUsuarios);
   private errorService = inject(ErrorService);
+
+  esAdmin = this.auth.esAdmin;
 
   prestamos: Prestamo[] = [];
   dataSource = new MatTableDataSource<Prestamo>([]);
@@ -74,6 +78,19 @@ export class ComponentePrestamos {
   marcarDevuelto(prestamo: Prestamo): void {
     if (!prestamo._id) return;
     this.gestionarPrestamos.actualizarPrestamo(prestamo._id, !prestamo.devuelto).subscribe({
+      next: () => {
+        this.cargarPrestamos();
+      },
+      error: (err) => {
+        this.error = this.errorService.manejarError(err);
+      }
+    });
+  }
+
+  eliminarPrestamo(id: string | undefined): void {
+    if (!id) return;
+    if (!confirm('¿Desea eliminar este préstamo?')) return;
+    this.gestionarPrestamos.eliminarPrestamo(id).subscribe({
       next: () => {
         this.cargarPrestamos();
       },
