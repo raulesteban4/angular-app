@@ -1,0 +1,40 @@
+@if(this.estaAutenticado()) {
+<button mat-button routerLink="/dashboard">Dashboard</button>
+
+<button mat-button [matMenuTriggerFor]="menuLibros">Libros</button>
+<mat-menu #menuLibros="matMenu">
+  <button mat-menu-item routerLink="/libros">Ver Libros</button>
+  @if(esAdmin()) {
+    <button mat-menu-item routerLink="/libros/alta">Alta Libro</button>
+  }
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="menuPrestamos">Prestamos</button>
+<mat-menu #menuPrestamos="matMenu">
+  <button mat-menu-item routerLink="/prestamos">Ver Prestamos</button>
+</mat-menu>
+
+<button mat-button routerLink="/carrito">
+  <span [matBadge]="totalCarrito()" [matBadgeHidden]="totalCarrito() === 0" matBadgeColor="accent">Carrito</span>
+</button>
+
+<button mat-button routerLink="/perfil">Perfil</button>
+
+@if(esAdmin()) {
+  <button mat-button [matMenuTriggerFor]="menuAdmin">Administracion</button>
+  <mat-menu #menuAdmin="matMenu">
+    <button mat-menu-item routerLink="/libros/alta">Alta Libro</button>
+    <button mat-menu-item routerLink="/libros">Gestion Libros</button>
+    <button mat-menu-item routerLink="/prestamos">Gestion Prestamos</button>
+  </mat-menu>
+}
+
+<button mat-button (click)="logout()">Cerrar sesion</button>
+}
+@if(!this.estaAutenticado()) {
+  <button mat-button [matMenuTriggerFor]="menuAcceso">Acceso</button>
+  <mat-menu #menuAcceso="matMenu">
+    <button mat-menu-item routerLink="/login">Login</button>
+    <button mat-menu-item routerLink="/registro">Registro</button>
+  </mat-menu>
+}

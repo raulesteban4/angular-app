@@ -1,0 +1,21 @@
+<div *ngIf="libro" class="detalle-container">
+  <h2>Modificar libro: {{ libro.titulo }}</h2>
+
+  <label>Título:</label>
+  <input [(ngModel)]="libro.titulo">
+
+  <label>Autor:</label>
+  <input [(ngModel)]="libro.autor">
+
+  <label>Género:</label>
+  <input [(ngModel)]="libro.genero">
+
+  <label>Año publicación:</label>
+  <input type="number" [(ngModel)]="libro.anioPublicacion">
+
+  <label>Disponible:</label>
+  <input type="checkbox" [(ngModel)]="libro.disponible">
+
+  <button mat-button color="primary" (click)="guardar()">Guardar</button>
+  <button mat-button (click)="goBack()">Volver</button>
+</div>

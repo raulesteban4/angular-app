@@ -1,0 +1,88 @@
+:host {
+  display: block;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #222;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* Título */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #1976d2;
+  font-weight: 700;
+}
+
+/* Texto de bienvenida */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Secciones */
+section {
+  margin-top: 25px;
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #0d47a1;
+  border-bottom: 2px solid #1976d2;
+  padding-bottom: 5px;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  background: #e9f2ff;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.15s, background 0.15s;
+}
+
+ul li:hover {
+  background: #d6e8ff;
+  transform: translateX(6px);
+}
+
+/* Tarjetas estadísticas */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.stats div {
+  background: #1976d2;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.stats div strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.4rem;
+}
+.clickable {
+  cursor: pointer;
+  color: blue;
+}

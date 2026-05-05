@@ -1,0 +1,36 @@
+<div class="alta-libro-container">
+  <h2>Alta de Libro</h2>
+
+  @if(error) {
+    <div class="error-banner">{{ error }}</div>
+  }
+
+  <form (ngSubmit)="altaLibro()">
+
+    <label>Titulo:</label>
+    <input type="text" [(ngModel)]="libro.titulo" name="titulo" required>
+
+    <label>Autor:</label>
+    <input type="text" [(ngModel)]="libro.autor" name="autor" required>
+
+    <label>Genero:</label>
+    <input type="text" [(ngModel)]="libro.genero" name="genero">
+
+    <label>Año de publicacion:</label>
+    <input type="number" [(ngModel)]="libro.anioPublicacion" name="anioPublicacion" required>
+
+    <label>Disponible:</label>
+    <select [(ngModel)]="libro.disponible" name="disponible">
+      <option [ngValue]="true">Si</option>
+      <option [ngValue]="false">No</option>
+    </select>
+
+    <label>Portada (URL):</label>
+    <input type="text" [(ngModel)]="libro.portada" name="portada">
+
+    <label>Resumen:</label>
+    <textarea [(ngModel)]="libro.resumen" name="resumen"></textarea>
+
+    <button type="submit">Dar de alta</button>
+  </form>
+</div>

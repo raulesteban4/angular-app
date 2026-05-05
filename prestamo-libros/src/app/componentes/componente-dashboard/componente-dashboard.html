@@ -1,0 +1,39 @@
+<h1>Dashboard</h1>
+
+    @if(auth.estaAutenticado()) {
+      <p><strong>{{ auth.usuarioActual()?.nombre }} ({{ auth.usuarioActual()?.perfil }})</strong></p>
+      <p>Bienvenido, puedes gestionar libros y prestamos desde el menu.</p>
+      <section class="stats">
+    <div routerLink="/libros" class="clickable">Total libros: <strong>{{ totalLibros }}</strong></div>
+    <div routerLink="/prestamos" class="clickable">Total prestamos: <strong>{{ totalPrestamos }}</strong></div>
+    <div>Prestamos activos: <strong>{{ prestamosActivos }}</strong></div>
+    <div>Libros no disponibles: <strong>{{ librosNoDisponibles }}</strong></div>
+  </section>
+
+  <section>
+    <h2>Top libros mas leidos</h2>
+    <ul>
+      <li *ngFor="let b of topLibros">{{ b.titulo }} -- {{ b.count }} prestamo(s)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Usuarios mas activos</h2>
+    <ul>
+      <li *ngFor="let u of topUsuarios">{{ u.usuario }} -- {{ u.count }}</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Prestamos recientes</h2>
+    <ul>
+      <li *ngFor="let p of recentPrestamos">
+        {{ p.fechaPrestamo | date:'dd/MM/yyyy' }} -- {{ getLibroTitulo(p.libro) }} ({{ getUsuarioNombre(p.usuario) }}) -- {{ p.devuelto ? 'Devuelto' : 'En prestamo' }}
+      </li>
+    </ul>
+  </section>
+    }
+
+    @if(!auth.estaAutenticado()) {
+      <p>No tienes acceso al dashboard. <a routerLink="/login">Inicia sesion</a></p>
+    }

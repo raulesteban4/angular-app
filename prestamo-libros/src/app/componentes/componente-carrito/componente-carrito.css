@@ -1,0 +1,31 @@
+.carrito-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carrito-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.carrito-item {
+  text-align: center;
+}
+
+.carrito-acciones {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.error-banner {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}

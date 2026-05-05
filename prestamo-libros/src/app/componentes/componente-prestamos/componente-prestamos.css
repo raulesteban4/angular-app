@@ -1,0 +1,55 @@
+.prestamo-list-container {
+  padding: 20px;
+}
+
+.prestamo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 tarjetas por fila */
+  gap: 22px;
+  margin-top: 20px;
+  background: #eef1f5;
+}
+
+/* Tarjetas */
+.example-card {
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  background: white;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.example-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.15);
+}
+
+/* Avatar */
+.example-header-image {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/29/29302.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+/* IMAGEN DEL LIBRO — Se verá completa y bien */
+mat-card img {
+  width: 100%;
+  height: 260px; /* Tamaño visual bonito */
+  object-fit: contain; /* 🔹 sin recortar la imagen */
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* Acciones */
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive: 1 tarjeta por fila en móvil */
+@media (max-width: 900px) {
+  :host {
+    grid-template-columns: 1fr;
+  }
+}

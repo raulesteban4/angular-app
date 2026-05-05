@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "genero": "Realismo mágico",
+    "anioPublicacion": 1967,
+    "disponible": false,
+    "portada": "imagenes/cienanosdesoledad.jpg",
+    "resumen": "Relata la historia de la familia Buendía a lo largo de siete generaciones en el mítico pueblo de Macondo."
+  },
+  {
+    "id": 2,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "genero": "Distopía",
+    "anioPublicacion": 1949,
+    "disponible": true,
+    "portada": "imagenes/1984.jpg",
+    "resumen": "Una sociedad totalitaria vigilada por el Gran Hermano, donde la libertad y la verdad están prohibidas."
+  },
+  {
+    "id": 3,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "genero": "Novela clásica",
+    "anioPublicacion": 1605,
+    "disponible": true,
+    "portada": "imagenes/donquijotedelamancha.jpg",
+    "resumen": "Aventuras de un hidalgo que, influenciado por los libros de caballerías, se convierte en caballero andante."
+  },
+  {
+    "id": 4,
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "genero": "Fábula",
+    "anioPublicacion": 1943,
+    "disponible": false,
+    "portada": "imagenes/elprincipito.jpg",
+    "resumen": "Un pequeño príncipe viaja por planetas y descubre lecciones sobre la amistad, el amor y la vida."
+  },
+  {
+    "id": 5,
+    "titulo": "La sombra del viento",
+    "autor": "Carlos Ruiz Zafón",
+    "genero": "Misterio",
+    "anioPublicacion": 2001,
+    "disponible": true,
+    "portada": "imagenes/lasombradelviento.jpg",
+    "resumen": "Un joven descubre un libro olvidado y se ve envuelto en un misterio literario en la Barcelona de posguerra."
+  },
+  {
+    "id": 6,
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
+    "genero": "Ciencia ficción",
+    "anioPublicacion": 1953,
+    "disponible": true,
+    "portada": "imagenes/Fahrenheit451.jpg",
+    "resumen": "En un futuro donde los libros están prohibidos, un bombero se rebela y busca preservar el conocimiento."
+  },
+  {
+    "id": 7,
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Jane Austen",
+    "genero": "Romance",
+    "anioPublicacion": 1813,
+    "disponible": true,
+    "portada": "imagenes/orgulloyprejuicio.jpg",
+    "resumen": "La historia de Elizabeth Bennet y su relación con el orgulloso señor Darcy, explorando amor y clases sociales."
+  },
+  {
+    "id": 8,
+    "titulo": "Crimen y castigo",
+    "autor": "Fiódor Dostoyevski",
+    "genero": "Drama psicológico",
+    "anioPublicacion": 1866,
+    "disponible": false,
+    "portada": "imagenes/crimenycastigo.jpg",
+    "resumen": "Un joven estudiante comete un asesinato y lucha con su conciencia y la culpa que lo consume."
+  },
+  {
+    "id": 9,
+    "titulo": "El Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "genero": "Fantasía",
+    "anioPublicacion": 1937,
+    "disponible": true,
+    "portada": "imagenes/elHobbit.webp",
+    "resumen": "Bilbo Bolsón emprende una aventura con enanos para recuperar un tesoro custodiado por un dragón."
+  },
+  {
+    "id": 10,
+    "titulo": "Los juegos del hambre",
+    "autor": "Suzanne Collins",
+    "genero": "Ciencia ficción",
+    "anioPublicacion": 2008,
+    "disponible": true,
+    "portada": "imagenes/losjuegosdelhambre.webp",
+    "resumen": "En un futuro distópico, Katniss Everdeen participa en un sangriento juego televisado para sobrevivir."
+  }
+]

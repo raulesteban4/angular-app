@@ -1,0 +1,36 @@
+<div class="prestamo-list-container">
+<h2>Gestion de Prestamos</h2>
+
+@if(error) {
+  <div class="error-banner">{{ error }}</div>
+}
+
+<app-componente-filtrar [dataSource]="dataSource" label="Filtrar prestamos" placeholder="Buscar por usuario o libro"></app-componente-filtrar>
+
+<div class="prestamo-grid">
+@for(prestamo of dataSource.filteredData; track prestamo._id || $index){
+  <mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ getLibroTitulo(prestamo.libro) }}</mat-card-title>
+      <mat-card-subtitle>Prestado a: {{ getUsuarioNombre(prestamo.usuario) }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="getLibroPortada(prestamo.libro)" alt="{{ getLibroTitulo(prestamo.libro) }}">
+    <mat-card-content>
+      <p><strong>Fecha prestamo:</strong> {{ prestamo.fechaPrestamo | date:'dd/MM/yyyy' }}</p>
+      <p><strong>Fecha devolucion:</strong> {{ prestamo.fechaDevolucion | date:'dd/MM/yyyy' }}</p>
+      <p><strong>Devuelto:</strong>
+        <span [style.color]="prestamo.devuelto ? 'green' : 'red'">
+          {{ prestamo.devuelto ? 'Si' : 'No' }}
+        </span>
+      </p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-button (click)="marcarDevuelto(prestamo)">{{ prestamo.devuelto ? 'MARCAR PENDIENTE' : 'MARCAR DEVUELTO' }}</button>
+      <button mat-button [routerLink]="['/libros', getLibroId(prestamo.libro)]">DETALLES</button>
+    </mat-card-actions>
+  </mat-card>
+}
+</div>
+</div>

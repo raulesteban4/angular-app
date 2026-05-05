@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "libro": {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "genero": "Realismo mágico",
+      "anioPublicacion": 1967,
+      "disponible": false,
+      "portada": "imagenes/cienanosdesoledad.jpg"
+    },
+    "usuario": "Raúl Esteban",
+    "fechaPrestamo": "2025-11-01",
+    "fechaDevolucion": "2025-11-15",
+    "devuelto": false
+    
+  },
+  {
+    "id": 2,
+    "libro": {
+      "id": 4,
+      "titulo": "El Principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "genero": "Fábula",
+      "anioPublicacion": 1943,
+      "disponible": false,
+      "portada": "imagenes/elprincipito.jpg"
+    },
+    "usuario": "Laura García",
+    "fechaPrestamo": "2025-10-20",
+    "fechaDevolucion": "2025-11-05",
+    "devuelto": true
+  },
+  {
+    "id": 3,
+    "libro": {
+      "id": 8,
+      "titulo": "Crimen y castigo",
+      "autor": "Fiódor Dostoyevski",
+      "genero": "Drama psicológico",
+      "anioPublicacion": 1866,
+      "disponible": false,
+      "portada": "imagenes/crimenycastigo.jpg"
+    },
+    "usuario": "José Martínez",
+    "fechaPrestamo": "2025-10-10",
+    "fechaDevolucion": "2025-11-09",
+    "devuelto": false
+  },
+  {
+    "id": 4,
+    "libro": {
+      "id": 3,
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "genero": "Novela clásica",
+      "anioPublicacion": 1605,
+      "disponible": true,
+      "portada": "imagenes/donquijotedelamancha.jpg"
+    },
+    "usuario": "María López",
+    "fechaPrestamo": "2025-09-15",
+    "fechaDevolucion": "2025-10-15",
+    "devuelto": true
+  },
+  {
+    "id": 5,
+    "libro": {
+      "id": 9,
+      "titulo": "El Hobbit",
+      "autor": "J.R.R. Tolkien",
+      "genero": "Fantasía",
+      "anioPublicacion": 1937,
+      "disponible": true,
+      "portada": "imagenes/elHobbit.webp"
+    },
+    "usuario": "Carlos Pérez",
+    "fechaPrestamo": "2025-11-05",
+    "fechaDevolucion": "2025-11-20",
+    "devuelto": false
+  },
+  {
+    "id": 6,
+    "libro": {
+      "id": 2,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "genero": "Distopía",
+      "anioPublicacion": 1949,
+      "disponible": true,
+      "portada": "imagenes/1984.jpg"
+    },
+    "usuario": "Lucía Fernández",
+    "fechaPrestamo": "2025-09-01",
+    "fechaDevolucion": "2025-09-20",
+    "devuelto": true
+  },
+  {
+    "id": 7,
+    "libro": {
+      "id": 5,
+      "titulo": "La sombra del viento",
+      "autor": "Carlos Ruiz Zafón",
+      "genero": "Misterio",
+      "anioPublicacion": 2001,
+      "disponible": true,
+      "portada": "imagenes/lasombradelviento.jpg"
+    },
+    "usuario": "Andrés Gómez",
+    "fechaPrestamo": "2025-11-02",
+    "fechaDevolucion": "2025-11-18",
+    "devuelto": false
+  },
+  {
+    "id": 8,
+    "libro": {
+      "id": 6,
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury",
+      "genero": "Ciencia ficción",
+      "anioPublicacion": 1953,
+      "disponible": true,
+      "portada": "imagenes/Fahrenheit451.jpg"
+    },
+    "usuario": "Sara Blanco",
+    "fechaPrestamo": "2025-08-10",
+    "fechaDevolucion": "2025-08-30",
+    "devuelto": true
+  },
+  {
+    "id": 9,
+    "libro": {
+      "id": 7,
+      "titulo": "Orgullo y prejuicio",
+      "autor": "Jane Austen",
+      "genero": "Romance",
+      "anioPublicacion": 1813,
+      "disponible": true,
+      "portada": "imagenes/orgulloyprejuicio.jpg"
+    },
+    "usuario": "Miguel Torres",
+    "fechaPrestamo": "2025-11-06",
+    "fechaDevolucion": "2025-11-22",
+    "devuelto": false
+  },
+  {
+    "id": 10,
+    "libro": {
+      "id": 10,
+      "titulo": "Los juegos del hambre",
+      "autor": "Suzanne Collins",
+      "genero": "Ciencia ficción",
+      "anioPublicacion": 2008,
+      "disponible": true,
+      "portada": "imagenes/losjuegosdelhambre.webp"
+    },
+    "usuario": "Elena Ruiz",
+    "fechaPrestamo": "2025-10-25",
+    "fechaDevolucion": "2025-11-09",
+    "devuelto": true
+  }
+]

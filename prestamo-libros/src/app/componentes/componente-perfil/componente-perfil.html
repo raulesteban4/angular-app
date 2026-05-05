@@ -1,0 +1,20 @@
+<div class="perfil-container">
+  <h2>Mi Perfil</h2>
+
+  @if(error) {
+    <div class="error-banner">{{ error }}</div>
+  }
+
+  @if(perfil) {
+    <mat-card>
+      <mat-card-content>
+        <p><strong>Codigo:</strong> {{ perfil.codigo }}</p>
+        <p><strong>Nombre:</strong> {{ perfil.nombre }}</p>
+        <p><strong>Email:</strong> {{ perfil.email }}</p>
+        <p><strong>Perfil:</strong> {{ perfil.perfil }}</p>
+        <p><strong>Estado:</strong> {{ perfil.estado }}</p>
+        <p><strong>Ultimo acceso:</strong> {{ perfil.fechaUltimoAcceso | date:'dd/MM/yyyy HH:mm' }}</p>
+      </mat-card-content>
+    </mat-card>
+  }
+</div>

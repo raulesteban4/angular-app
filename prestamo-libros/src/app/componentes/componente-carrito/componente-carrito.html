@@ -1,0 +1,38 @@
+<div class="carrito-container">
+  <h2>Carrito de Prestamos</h2>
+
+  @if(error) {
+    <div class="error-banner">{{ error }}</div>
+  }
+
+  @if(items().length === 0) {
+    <p>El carrito esta vacio.</p>
+    <button mat-button routerLink="/libros">Explorar libros</button>
+  }
+
+  @if(items().length > 0) {
+    <p>Total de libros en carrito: <strong>{{ totalItems() }}</strong></p>
+
+    <div class="carrito-grid">
+      @for(item of items(); track item.libro._id) {
+        <mat-card class="carrito-item">
+          <img mat-card-image [src]="getPortada(item.libro)" alt="{{ item.libro.titulo }}" style="max-height: 150px; object-fit: contain;">
+          <mat-card-content>
+            <h3>{{ item.libro.titulo }}</h3>
+            <p>{{ item.libro.autor }}</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button color="warn" (click)="eliminarItem(item.libro._id!)">Eliminar</button>
+          </mat-card-actions>
+        </mat-card>
+      }
+    </div>
+
+    <div class="carrito-acciones">
+      <button mat-button color="warn" (click)="vaciarCarrito()">Vaciar carrito</button>
+      <button mat-button color="primary" (click)="solicitarPrestamos()" [disabled]="procesando">
+        {{ procesando ? 'Procesando...' : 'Solicitar prestamos' }}
+      </button>
+    </div>
+  }
+</div>

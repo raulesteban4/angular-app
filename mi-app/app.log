@@ -1,0 +1,152 @@
+2025-11-24T12:03:36.066Z [INFO] ::1 - - "GET /" PETICION ERRONEA
+2025-11-24T12:03:36.088Z [INFO] ::1 - - "GET /favicon.ico" PETICION ERRONEA
+2025-11-24T12:16:26.904Z [INFO] ::1 - - "GET /" PETICION ERRONEA
+2025-11-24T12:16:26.947Z [INFO] ::1 - - "GET /favicon.ico" PETICION ERRONEA
+2025-11-24T12:19:44.468Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:45.378Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:45.598Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:45.835Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:46.039Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:46.246Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:47.214Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:47.391Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:49.428Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:49.617Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:49.817Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:50.004Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:51.413Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:51.650Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:51.845Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:52.067Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:52.304Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:52.730Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:52.953Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:53.163Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:19:53.382Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:20:28.652Z [INFO] ::1 - - "POST /usuarios/registro" REGISTRO: Usuario registrado
+2025-11-24T12:20:47.391Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:20:47.612Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:20:48.306Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:20:48.555Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:20:48.848Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:20:49.049Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:22:30.627Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:22:34.933Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:22:41.054Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:41.583Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:41.771Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:41.974Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:42.192Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:42.403Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:42.604Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:42.826Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:43.045Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:43.265Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:43.680Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:43.959Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:44.177Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:44.507Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:44.735Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:45.079Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:45.361Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:45.588Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:46.386Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:46.700Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:46.963Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:47.487Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:47.713Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:48.018Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:48.327Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:48.642Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:49.185Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:49.465Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:49.744Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:50.799Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:51.044Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:51.294Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:52.214Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario raul.esteban no encontrado
+2025-11-24T12:22:59.683Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:28:50.297Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:28:50.506Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:28:50.690Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:29:01.843Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:29:18.455Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-24T12:29:28.479Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:29:34.629Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-24T12:35:45.767Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:38:21.917Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:32.104Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-24T12:38:40.886Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:41.276Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:41.464Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:41.637Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:41.915Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:42.084Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:46.707Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:47.620Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:48.416Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:48.616Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:38:51.763Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:40:59.443Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-24T12:41:19.658Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:28.126Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:28.744Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:28.952Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:29.169Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:29.369Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:29.684Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:30.185Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:30.374Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:30.612Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:30.804Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:31.776Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:32.011Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:46:32.208Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:47:05.801Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:47:06.399Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:48:10.374Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:48:11.877Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-24T12:48:15.285Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario dffdf no encontrado
+2025-11-24T12:48:16.145Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario dffdf no encontrado
+2025-11-24T12:48:16.667Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario dffdf no encontrado
+2025-11-24T12:48:16.905Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario dffdf no encontrado
+2025-11-24T12:48:23.409Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:49:21.558Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:49:26.164Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-24T12:50:05.768Z [INFO] ::1 - - "POST /usuarios/registro" REGISTRO: Usuario registrado
+2025-11-24T12:51:21.466Z [INFO] ::1 - - "POST /usuarios/registro" REGISTRO: Usuario registrado
+2025-11-24T12:51:53.308Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:53:36.500Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:53:40.250Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:53:44.368Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-24T12:53:58.174Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:54:19.458Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:54:44.490Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-24T12:54:47.760Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-25T16:11:50.466Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-25T16:11:51.882Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-25T16:12:33.467Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario PRUEBA no encontrado
+2025-11-25T16:12:35.012Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario PRUEBA no encontrado
+2025-11-25T16:12:40.026Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario PRUEBA no encontrado
+2025-11-25T16:12:41.049Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario PRUEBA no encontrado
+2025-11-25T16:12:41.223Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario PRUEBA no encontrado
+2025-11-25T16:12:41.372Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario PRUEBA no encontrado
+2025-11-25T16:13:23.373Z [INFO] ::1 - - "POST /usuarios/registro" REGISTRO: Usuario registrado
+2025-11-25T16:13:36.511Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 6925d5a306f64a6056d5ae5e 
+2025-11-25T16:13:39.136Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-26T16:28:51.624Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T16:34:44.292Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T16:37:59.775Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T16:39:02.648Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T16:45:24.179Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T16:49:16.644Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T16:58:34.956Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T17:10:09.469Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T17:32:32.217Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T17:32:51.045Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-26T17:33:10.903Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-26T17:33:11.710Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario  no encontrado
+2025-11-26T17:33:32.237Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
+2025-11-26T17:33:35.307Z [INFO] ::1 - - "POST /usuarios/logout" LOGOUT: cierre de sesión 
+2025-11-26T17:38:53.811Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: usuario/clave incorrecta de 69244d8c03504c3f07e3dc8e 
+2025-11-26T17:38:57.776Z [INFO] ::1 - - "POST /usuarios/login" LOGIN: login correcto de 69244d8c03504c3f07e3dc8e 
