@@ -8,7 +8,7 @@ const usuarioSchema = new mongoose.Schema({
   perfil: { type: String, default: 'Usuario' },
   estado: { type: String, default: 'Activo' },
   fechaUltimoAcceso: { type: Date, default: Date.now },
-  numeroAccesosErroneo: { type: String, default: 0 }
+  numeroAccesosErroneo: { type: Number, default: 0 }
 });
 
 module.exports = mongoose.model('Usuario', usuarioSchema);
