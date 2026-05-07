@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
 const morgan = require('morgan');
-const rutasJuegos = require('./rutas/rutasJuegos.js');
 const logger = require('./utils/logger.js')
 const cookieParser = require('cookie-parser');
 const connectMongo = require('connect-mongo');
@@ -56,7 +55,6 @@ mongoose.connect(MONGOURL)
   .then(() => console.log('Conectado a MongoDB'))
   .catch(err => console.error('Error al conectar MongoDB', err));
 
-app.use('/juegos', rutasJuegos);
 app.use('/usuarios', rutasUsuarios);
 app.use('/libros', rutasLibros);
 app.use('/prestamos', rutasPrestamos);
